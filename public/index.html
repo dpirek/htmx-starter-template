@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTMLX</title>
+  <script src="https://unpkg.com/htmx.org@1.9.4"></script>
+</head>
+<body>
+  <h1>HTMX Opus</h1>
+  <button hx-get="/api/users" hx-target="#users">
+    Get users
+  </button>
+  <div id="users"></div>
+</body>
+</html>
